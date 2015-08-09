@@ -1,0 +1,74 @@
+body{
+    font-size: large;
+    text-align: center;
+}
+    
+div.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul#cat-list{
+    margin-top: 20px;
+}
+
+ul:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ul#cat-list > li{
+    margin: 5px;
+    display: inline-block;
+    list-style-type: none;    
+}
+
+ul#cat-list > li > button{
+    font-size: large;
+    color: #ffffff;
+    background: #02D9F4;
+    padding: 10px;
+    width: 100px;
+}
+
+ul#cat-list > li > button:hover{
+    box-shadow: 0 0 0.5em gold;    
+}
+
+div#cat{
+    margin: 0px;
+}
+
+div#cat:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+   
+div#cat > h2#cat-name, div#cat > h3#cat-level, div#cat > div#cat-count{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+div#cat > h3#cat-level{
+    color: #02D9F4;
+}
+
+div#cat > img#cat-img{
+    float: left;
+    width: 70%;
+    margin: auto;
+}
+
+div#cat > div.nicknames{
+    float: left;
+    width: 20%;
+}
+
+div#cat > div.nicknames > ul > li{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+}
